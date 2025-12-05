@@ -1,5 +1,6 @@
 # accident-management-system
-. Features
+. Features:
+
 🚨 One‑tap accident reporting
 📍 Automatic geo‑location tagging using GPS
 📸 Upload images and videos of the accident scene
@@ -9,7 +10,8 @@
 🔐 Anonymous reporting supported
 🧭 View nearest hospitals and police stations
 📊 Admin dashboard with analytics and incident logs
-🔧 Requirements
+
+🔧 Requirements:
 Make sure you have the following installed:
 
 Backend
@@ -23,12 +25,14 @@ Android Studio / Xcode
 Recommended Tools
 VS Code + REST Client / Thunder Client
 Postman for API testing
-Git & GitHub
+
+Git & GitHub:
 🚀 Setup Instructions
 1️⃣ Clone the repository
 git clone <your-repo-url>
 cd accident_reporting_app
 2️⃣ Setup environment variables
+
 Create a .env file:
 
 DB_URL=postgres://user:password@localhost/accidents\NMAPS_API_KEY=your_google_maps_key
@@ -40,12 +44,14 @@ npm install
 npm run dev
 Server runs at: 👉 http://127.0.0.1:8000
 
+
 4️⃣ Run the Mobile App
 flutter pub get
 flutter run
 🌐 API Endpoints
 ➕ POST /accidents
 Submit a new accident report.
+
 
 Request Body
 {
@@ -70,20 +76,26 @@ Example Response
     "status": "dispatched"
   }
 ]
+
+
 ❗ Common Issues & Solutions
-Error	Solution
+Error	Solution:
 .GPS not working-	Confirm that the device has location permissions enabled.
 .Push notifications failing-	Ensure correct Firebase keys and device tokens.
 .API returning 500 errors	-Check database connection and required environment variables.
 .Map not showing-	Verify Google Maps API key restrictions.
 .Uploads failing-	Confirm media storage bucket (Firebase/AWS) is configured properly.
-📚 References
+
+
+📚 References:
 Google Maps API Docs
 Firebase Cloud Messaging Docs
 Flutter / React Native Docs
 Node.js / Rust / Django (depending on backend choice)
+
+
 👤 Author
-Your Name Here
+
 Built by Purity Ngure for the “New Stack Learning” mini-project.
 
 

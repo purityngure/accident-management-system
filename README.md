@@ -1,5 +1,9 @@
-# accident-management-system
-. Features:
+Accident Management System
+
+A geo-location powered emergency reporting system that allows users to quickly report road accidents. The platform alerts nearby emergency responders in real-time to reduce response delays and save lives.
+
+
+ Features:
 
 🚨 One‑tap accident reporting
 📍 Automatic geo‑location tagging using GPS
